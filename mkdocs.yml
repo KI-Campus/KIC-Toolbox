@@ -1,0 +1,89 @@
+site_name: KI-Campus - Toolbox
+
+site_url: https://ki-campus.readthedocs.io
+site_author: Ina Stein
+site_description:
+# Repository
+#repo_name:
+#repo_url:
+#edit_uri: ""
+
+# Copyright
+copyright: Copyright &copy; 2022 KI-Campus
+
+# Configuration
+extra_css:
+  - stylesheets/extra.css
+
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+  - def_list
+
+
+theme:
+  name: material
+  custom_dir: overrides
+  logo: images/kic-logo.png
+  favicon: images/favicon.ico
+
+  language: de
+  features:
+    - content.tabs.link
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - navigation.sections
+    - navigation.indexes
+    - search.highlight
+    - search.share
+    - search.suggest
+  font:
+    text: Poppins
+
+  palette:
+    - scheme: kic
+
+extra:
+  social:
+    - icon: kic/twitter
+      link: https://twitter.com/kicampus
+    - icon: kic/linkedin
+      link: https://www.linkedin.com/school/kicampus
+    - icon: kic/youtube
+      link: https://www.youtube.com/channel/UCtimfZyjzmkpOeLI1s88hcQ
+    - icon: kic/instagram
+      link: https://www.instagram.com/kicampus/
+    - icon: kic/facebook
+      link: https://www.facebook.com/KICampus
+
+
+nav:
+  - Home: 'index.md'
+  - Kurse erstellen:
+    - konzept/index.md
+    - Kursdesign:
+        - konzept/design/index.md
+        - Roadmap: 'konzept/design/roadmap.md'
+        - Zielgruppen: 'konzept/design/target.md'
+        - Lernziele: 'konzept/design/lernziel.md'
+        - Kursstruktur: 'konzept/design/struktur.md'
+        - Formate: 'konzept/design/format.md'
+        - Übungen: 'konzept/design/uebung.md'
+    - LMS:
+        - konzept/lms/index.md
+    - H5P:
+        - konzept/h5p/index.md
+    - Jupyter Notebooks:
+        - konzept/jnb/index.md
+    - Checklisten: 'konzept/chklist.md'
+  - Kurse einbinden:
+    - integration/index.md
+  - FAQs: 'faq.md'
+  - Über uns: 'about.md'
