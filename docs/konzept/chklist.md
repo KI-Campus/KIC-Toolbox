@@ -1,5 +1,5 @@
 # Letzte Schritte
 
-Sie stehen kurz davor, Ihr Lernangebot auf dem KI-Campus zu veröffentlichen? Herzlichen Glückwunsch!
+Du stehst kurz davor, dein Lernangebot auf dem KI-Campus zu veröffentlichen? Herzlichen Glückwunsch!
 
-Wir haben für Sie Checklisten vorbereitet, mit denen Sie sicherstellen können, dass Sie an jedes Detail gedacht haben.
+Wir haben für dich Checklisten vorbereitet, mit denen du sicherstellen können, dass du an jedes Detail gedacht hast.

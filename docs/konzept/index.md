@@ -1,15 +1,20 @@
-# Kurse erstellen
+# :material-shovel:  Kurse erstellen
 
-Sie planen, einen online-Kurs für den KI-Campus zu produzieren? Wunderbar!
+Du planst, einen online-Kurs für den KI-Campus zu produzieren? Wunderbar!
 
-Wir haben für Sie Informationen zusammengestellt, die Ihnen auf Ihrem Weg zu einem gelungenem Lernangebot behilflich sind. Sie sollen als thematische Einführung wie auch Nachschlagewerk bei aufkommenden Fragen dienen.
+Wir haben für dich Informationen zusammengestellt, die dir auf deinem Weg zu einem gelungenem Lernangebot behilflich sind. Sie dienen dir als thematische Einführung und Nachschlagewerk bei aufkommenden Fragen.
 
-Darüber hinaus möchten wir Sie ermuntern, in regem Kontakt mit Ihrer/m Key Account Manager:in zu stehen. Nutzen Sie die Möglichkeit, sich mit einem Sparringspartner auszutauschen und gemeinsam Ideen und Lösungen zu entwickeln!
 
-## Navigation
- In der linken Navigationsleiste können Sie die einzelnen Kapitel und Seiten zum Thema Kurserstellung anwählen. Die rechte Leiste hingegen ermöglicht die Navigation auf der Seite, auf der Sie sich momentan befinden.
 
-## Aufbau
+!!! tip "Tipp"
+
+    Suche den Kontakt mit deiner/m Key Account Manager:in. Nutze die Möglichkeit, dich mit einem Sparringspartner auszutauschen und gemeinsam Ideen und Lösungen zu entwickeln!
+
+
+## :fontawesome-solid-compass:   Navigation
+ In der linken Navigationsleiste kannst du die einzelnen Kapitel und Seiten zum Thema Kurserstellung anwählen. Die rechte Leiste hingegen ermöglicht die Navigation auf der Seite, auf der du dich momentan befinden.
+
+## :fontawesome-solid-trowel-bricks: Aufbau
 
 In den Kapiteln sind unterschiedliche Aspekte der Kurserstellung thematisch geordnet. Bei Überschneidungen und Wechselwirkungen haben wir geeignete Passagen wechselseitig verlinkt.
 
@@ -20,13 +25,13 @@ In den Kapiteln sind unterschiedliche Aspekte der Kurserstellung thematisch geor
   * Was sollte ich bzgl. Didkatik und Instruktionsdesign beachten?
   * Wie kann ich Lernende aktivieren?
 
-[LMS](lms/index.md): Dieses Kapitel führt Sie in das LMS des KI-Campus ein.
+[LMS](lms/index.md): Dieses Kapitel führt dich in das LMS des KI-Campus ein.
 
 
-[H5P](h5p/index.md): Lernen Sie H5P kennen und gestalten Sie Ihren Kurs abwechslungsreich
+[H5P](h5p/index.md): Lerne H5P kennen und gestalte deinen Kurs abwechslungsreich
 
 [Jupyter Notebooks](jnb/index.md)
 :
- Erfahren Sie, wie Sie Jupyter Notebooks in Ihren Kurs integrieren können.
+ Erfahre, wie du Jupyter Notebooks in deinen Kurs integrieren kannst.
 
-[ Checklisten](chklist.md): Kontrollieren Sie noch einmal alle Details, bevor Ihr Kurs live geht
+[ Checklisten](chklist.md): Kontrolliere noch einmal alle Details, bevor dein Kurs live geht!

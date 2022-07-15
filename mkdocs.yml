@@ -24,6 +24,11 @@ markdown_extensions:
         custom_icons:
           - overrides/.icons
   - def_list
+  - md_in_html
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.progressbar
 
 
 theme:
@@ -31,12 +36,17 @@ theme:
   custom_dir: overrides
   logo: images/kic-logo.png
   favicon: images/favicon.ico
+  icon:
+    admonition:
+      note: octicons/question-16
+      tip: fontawesome/solid/lightbulb
 
   language: de
   features:
     - content.tabs.link
     - navigation.instant
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
     - navigation.sections
@@ -71,6 +81,7 @@ nav:
     - Kursdesign:
         - konzept/design/index.md
         - Roadmap: 'konzept/design/roadmap.md'
+        - Vorbereitung: 'konzept/design/vorbereitung.md'
         - Zielgruppen: 'konzept/design/target.md'
         - Lernziele: 'konzept/design/lernziel.md'
         - Kursstruktur: 'konzept/design/struktur.md'

@@ -1,12 +1,12 @@
 [data-md-color-scheme="kic"] {
 
-  --md-primary-fg-color: #3A2A78; 
+  --md-primary-fg-color: #3A2A78;
   --md-accent-fg-color: #1AA469;
-  --md-default-bg-color: #EAF4F8; 
+  --md-default-bg-color: rgba(234,244,248,0.5);
   --md-default-fg-color--light: #1AA469;
-  
+
 }
- 
+
  .md-typeset h1 {
     margin: 0 0 px2em(40px, 32px);
     color: var(--md-default-fg-color--light);
@@ -15,16 +15,16 @@
     line-height: 1.3;
     letter-spacing: -0.01em;
   }
- 
+
   .md-typeset h2 {
     margin: px2em(40px, 25px) 0 px2em(16px, 25px);
     color: var(--md-primary-fg-color);
     font-weight: 700;
     font-size: px2em(25px);
-    line-height: 1.4; 
+    line-height: 1.4;
     letter-spacing: -0.01em;
   }
-  
+
   .md-typeset h3 {
     margin: px2em(32px, 20px) 0 px2em(16px, 20px);
     font-weight: 700;
@@ -32,14 +32,14 @@
     line-height: 1.5;
     letter-spacing: 0.01em;
   }
-  
+
   .md-typeset h4 {
     margin: px2em(16px);
     font-weight: 400;
     letter-spacing: 0.01em;
   }
-  
-  .md-logo 
+
+  .md-logo
       img,
       svg {
         display: block;
@@ -48,3 +48,48 @@
         fill: currentColor;
       }
 
+
+            /* DONE BOX */
+         .md-typeset .admonition.success,
+         .md-typeset details.success{
+           border-color: rgb(26,164,105) ;
+         }
+
+         /*Tip Box */
+
+         .md-typeset .admonition.tip,
+         .md-typeset details.tip{
+           border-color: rgb(58,42,120);
+           }
+         .md-typeset .tip > .admonition-title,
+         .md-typeset .tip > summary {
+          background-color: rgba(58, 42,120, 0.3);
+          color: rgb(58,42,120);
+         }
+
+
+
+       /* Beispiel Box */
+
+       .md-typeset .admonition.info,
+       .md-typeset details.info{
+         border-color: rgb(25,164,105);
+         }
+       .md-typeset .info > .admonition-title,
+       .md-typeset .info > summary {
+        background-color: rgba(25, 164,105, 0.8);
+        color: rgb(58,42,120);
+       }
+
+
+       /* question Box */
+       .md-typeset .admonition.note,
+       .md-typeset details.note{
+         border-color: rgb(25,164,105);
+         }
+       .md-typeset .note > .admonition-title,
+       .md-typeset .note > summary {
+        background-color: rgba(25, 164,105, 0.8);
+        border-color: rgb(25,164,105);
+        color: rgb(58,42,120);
+       }

@@ -1,3 +1,3 @@
-# Kursintegration
+# :fontawesome-solid-arrows-spin: Kursintegration
 
-Wir freuen uns, dass Sie sich dazu entschieden haben, KI-Campus Kurse in Ihre Lehrveranstaltungen einzubinden. 
+Wir freuen uns, dass du dich dazu entschieden hast, KI-Campus Materialien in deine Lehrveranstaltungen einzubinden.
